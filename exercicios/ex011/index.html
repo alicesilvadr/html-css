@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+      <source src="midia/[No Copyright Music]   Aesthetic Music   Chill Music   (For studying,relax,and feeling good).mp3" type="audio/mpeg">
+      <source src="midia/Coffee Lofi ☕1 Hour Cafe Song 🎵 Stream cafe ✨cute & relaxing music 🍪 Make Your Day Better.m4a" type="audio/m4a">
+      <source src="midia/Coffee Lofi ☕1 Hour Cafe Song 🎵 Stream cafe ✨cute & relaxing music 🍪 Make Your Day Better.ogg" type="audio/ogg">
+
+      <p>infelizmente seu navegador não consegue reproduzir áudio.
+        <a href="midia/[No Copyright Music]   Aesthetic Music   Chill Music   (For studying,relax,and feeling good).mp3">Clique aqui para baixar o arquivo MP3</a>
+      </p>
+    </audio>
+ 
+</body>
+</html>
